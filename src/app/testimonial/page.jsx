@@ -6,8 +6,8 @@ import { StateContext } from "../../../StateContext";
 export default function TestimonialPage() {
   const data = useContext(StateContext);
   const testimonials = data.testimonials;
-  const enabledData = testimonials.filter((test) => test.enabled);
-  // const projectDetail = projects?.[0];
+  const enabledData = testimonials?.filter((test) => test.enabled);
+
   return (
     <>
       {enabledData && (
