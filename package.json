@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "axios": "^1.6.8",
+    "date-fns": "^3.6.0",
+    "framer-motion": "^11.0.18",
+    "next": "^14.1.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.4"
+    "swiper": "^11.0.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
